@@ -22,8 +22,6 @@
 #define Paste  LC(V)
 #define Redo   LC(Y)
 
-&mt { tapping-term-ms = <500>; };
-
 / {
     keymap {
         compatible = "zmk,keymap";
