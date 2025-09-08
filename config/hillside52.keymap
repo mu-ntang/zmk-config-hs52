@@ -71,15 +71,6 @@
             >;
         };
 
-        numpad {
-            bindings = <
-&none  &none  &none  &none  &none  &none                               &kp N7  &kp N8  &kp N9  &none  &none  &none
-&none  &none  &none  &none  &none  &none                               &kp N4  &kp N5  &kp N6  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none                &none   &kp N1  &kp N2  &kp N3  &none  &none  &none
-&none  &none  &none         &none  &none  &none  &none  &none  &kp N0  &none   &none           &none  &none  &none
-            >;
-        };
-
         sym_layer {
             /* SYM
  * -------------------------------------------------------------------------------------------------------------------------------------
@@ -97,6 +88,15 @@
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        numpad {
+            bindings = <
+&none  &none  &none  &none  &none  &none                               &kp N7  &kp N8  &kp N9  &none  &none  &none
+&none  &none  &none  &none  &none  &none                               &kp N4  &kp N5  &kp N6  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none                &none   &kp N1  &kp N2  &kp N3  &none  &none  &none
+&none  &none  &none         &none  &none  &none  &none  &none  &kp N0  &none   &none           &none  &none  &none
+            >;
         };
 
         adj_layer {
