@@ -52,6 +52,15 @@
         };
     };
 
+    macros {
+        joy: joy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp J &kp O &kp SPACE>;
+            label = "JOY";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
