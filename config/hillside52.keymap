@@ -126,7 +126,7 @@
 
         sticky_layer {
             bindings = <
-&none  &none  &none  &kp LA(LS(NUMBER_3))  &kp LA(LS(NUMBER_4))  &kp LA(LS(N5))                              &none  &none  &none  &none  &none  &none
+&none  &none  &none  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))                              &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none                 &none                 &none                                       &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none                 &none                 &none           &none                &none  &none  &none  &none  &none  &none  &none
 &none  &none  &none                        &none                 &none           &none  &none  &none  &none  &none  &none         &none  &none  &none
