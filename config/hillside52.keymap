@@ -52,15 +52,6 @@
         };
     };
 
-    macros {
-        joy: joy {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "JOY";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
